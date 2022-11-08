@@ -31,9 +31,7 @@ const Formulario = (props) => {
       <form onSubmit={aoSalvar}>
         <h2>Preencha os dados para criar sua coleção.</h2>
         <p>Copie o endereço da imagem no link: <a href="https://pt.wikipedia.org/wiki/Categoria:Cartazes_de_filmes_do_Studio_Ghibli" target="blank">Cartazes de filmes do Studio Ghibli</a>.</p>
-        <p>Clique no link do anime, depois clique na imagem.</p>
-        <p>Em seguida, copie o link da imagem na barra de navegação e cole na caixa de imagem abaixo</p>
-        <br></br>
+        
 
         <CampoTexto 
           obrigatorio={true} 
